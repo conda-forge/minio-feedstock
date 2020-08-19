@@ -5,7 +5,7 @@ Home: https://github.com/minio/minio-py
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
 

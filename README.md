@@ -5,9 +5,13 @@ Home: https://github.com/minio/minio-py
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/minio-feedstock/blob/master/LICENSE.txt)
 
 Summary: MinIO Python Library for Amazon S3 Compatible Cloud Storage for Python
+
+Development: https://github.com/minio/minio-py
+
+Documentation: https://docs.min.io/docs/python-client-api-reference
 
 The MinIO Python Client SDK provides simple APIs to access any Amazon S3
 compatible object storage server.

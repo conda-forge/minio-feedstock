@@ -1,5 +1,5 @@
 {% set name = "minio" %}
-{% set version = "7.1.1" %}
+{% set version = "7.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f8271a56c3b91b54c9b25e3d12e1a88ccffea70b7bdce5c906e7bb7dea45c7ba
+  sha256: 40d0cdb4dba5d5610d6599ea740cf827102db5bfa71279fc220c3cf7305bedc1
 
 build:
   noarch: python

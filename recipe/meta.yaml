@@ -24,11 +24,6 @@ requirements:
     - urllib3
     - argon2-cffi
     - pycryptodome
-# Not found via grasykull, Not required for python >=3.7 https://github.com/minio/minio-py/blob/7.2.0/setup.py
-    #- future
-    #- pytz
-    #- python-dateutil
-    #- configparser
 
 test:
   imports:

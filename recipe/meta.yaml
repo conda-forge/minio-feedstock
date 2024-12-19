@@ -12,16 +12,16 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
     - typing_extensions
-    - python >=3.7
+    - python >={{ python_min }}
     - certifi
     - urllib3
     - argon2-cffi
@@ -36,6 +36,7 @@ test:
     - minio.sse
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
